@@ -18,6 +18,8 @@ public class IgniteDemoApplication {
 
 	public static void main(String[] args) {
 
+		SpringApplication.run(IgniteDemoApplication.class, args);
+		/*
 		try (Ignite ignite = Ignition.start("D:\\apache-ignite-2.8.1-bin\\examples\\config\\example-ignite.xml")) {
 			// Put values in cache.
 			IgniteCache<Integer, String> cache = ignite.getOrCreateCache("igCache");
@@ -29,6 +31,6 @@ public class IgniteDemoApplication {
 
 		} catch(Exception ex){
 			System.out.println(ex.getMessage());
-		}
+		}*/
 }}
 
