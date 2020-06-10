@@ -1,3 +1,3 @@
 # apache-ignite-poc
 
-Apache Ignite example !!
+SpringBoot, apache Camel & Apache Ignite example !!
